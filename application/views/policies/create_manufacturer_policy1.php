@@ -1,0 +1,144 @@
+<div class="content-wrapper">
+    <!-- Main content -->
+    <section class="content">
+        <div class="row">
+            <div class="col-xs-12">
+                <!-- general form elements -->
+                <div class="box box-primary">
+                    <div class="box-header with-border">
+                        <h3 class="box-title">Add Policy</h3>
+
+                    </div>
+                    <!-- /.box-header -->
+                    <!-- form start -->
+                    <?php
+
+                    $attr = array(
+
+                        'role' => 'form'
+                    )
+                    ?>
+                    <?php if($this->session->flashdata('errors')): ?>
+
+                        <div class="alert alert-danger alert-dismissible">
+                            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                            <h4><i class="icon fa fa-check"></i> Alert</h4>
+                            <?php echo $this->session->flashdata('errors');?>
+                        </div>
+                    <?php endif; ?>
+                    <?php if($this->session->flashdata('created')): ?>
+
+                        <div class="alert alert-success alert-dismissible">
+                            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                            <h4><i class="icon fa fa-check"></i> Alert</h4>
+                            <?php echo $this->session->flashdata('created');?>
+                        </div>
+                    <?php endif; ?>
+
+                    <?php echo form_open('Policies/create_manufacturer_policy1',$attr)?>
+                    <div class="box-body">
+
+                        <?php
+
+                        $data = array(
+                            'class' => 'form-control',
+                            'name' => 'policy_name',
+                            'placeholder' => 'Enter Policy Name',
+                            'value' => set_value('policy_name')
+                        )
+                        ?>
+                        <?php echo form_label('Policy Name'); ?>
+                        <?php echo form_input($data) ?>
+                    </div>
+                    <div class="box-body">
+
+                        <?php
+
+                        $data = array(
+                            'class' => 'form-control',
+                            'name' => 'policy_price',
+                            'placeholder' => 'Enter Policy Price',
+                            'value' => set_value('policy_price')
+
+                        )
+                        ?>
+                        <?php echo form_label('Policy Price'); ?>
+                        <?php echo form_input($data) ?>
+                    </div>
+                    <div class="box-body">
+
+                        <?php
+
+                        $data = array(
+                            'class' => 'form-control',
+                            'name' => 'policy_sum',
+                            'placeholder' => 'Enter Sum Insured',
+                            'value' => set_value('policy_sum')
+
+                        )
+                        ?>
+                        <?php echo form_label('Sum Insured'); ?>
+                        <?php echo form_input($data) ?>
+                    </div>
+                    <div class="box-body">
+
+                        <?php
+
+                        $data = array(
+                            'class' => 'form-control',
+                            'name' => 'policy_rate',
+                            'placeholder' => 'Enter Rate',
+                            'value' => set_value('policy_rate')
+
+                        )
+                        ?>
+                        <?php echo form_label('Rate'); ?>
+                        <?php echo form_input($data) ?>
+                    </div>
+                    <div class="box-body">
+
+                        <?php
+
+                        $data = array(
+                            'class' => 'form-control',
+                            'name' => 'policy_perils3',
+                            'placeholder' => 'Enter Perils Rate 1 To 3',
+                            'value' => set_value('policy_perils3')
+                        )
+                        ?>
+                        <?php echo form_label('Perils Rate 1 To 3'); ?>
+                        <?php echo form_input($data) ?>
+                    </div>
+                    <div class="box-body">
+
+                        <?php
+
+                        $data = array(
+                            'class' => 'form-control',
+                            'name' => 'policy_perils4',
+                            'placeholder' => 'Enter Perils Rate 1 To 4',
+                            'value' => set_value('policy_perils4')
+                        )
+                        ?>
+                        <?php echo form_label('Perils Rate 1 To 3'); ?>
+                        <?php echo form_input($data) ?>
+                    </div>
+                    <div class="box-body">
+                        <?php
+
+                        $data = array(
+                            'class' => 'btn btn-success',
+                            'id' => 'exampleInputText',
+                            'name' => 'created',
+                            'placeholder' => 'Enter Perils Rate 1 To 4',
+                            'value' => 'Add New Policy'
+                        )
+                        ?>
+                        <?php echo form_submit($data) ?>
+                    </div>
+                </div>
+                <?php echo form_close();?>
+            </div>
+        </div>
+    </section>
+</div>
