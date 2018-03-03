@@ -98,8 +98,11 @@ $route['login']= "Users/login";
 $route['logout']= "Users/logout";
 
 $route['view']= "Front/view";
+<<<<<<< HEAD
 $route['re_view']= "Front/re_view";
 
+=======
+>>>>>>> 73f1ead0c708f2468416e063af6839e26b986394
 
 
 

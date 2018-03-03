@@ -74,7 +74,11 @@
                 $data = array(
                     'class' => 'btn btn-primary btn-block btn-flat',
                     'placeholder' => 'Retype password',
+<<<<<<< HEAD
                     'value' => 'Login'
+=======
+                    'value' => 'Register'
+>>>>>>> 73f1ead0c708f2468416e063af6839e26b986394
                 )
 
                 ?>

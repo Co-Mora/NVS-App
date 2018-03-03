@@ -20,7 +20,11 @@ $(document).ready(function() {
     });
 
     $('.submit-button').click(function(){
+<<<<<<< HEAD
         swal("Thanks", "We'll Get In Touch Soon", "success");
+=======
+        swal("Submit it Successfully", "we sending message for you", "success");
+>>>>>>> 73f1ead0c708f2468416e063af6839e26b986394
 
     });
 

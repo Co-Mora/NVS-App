@@ -1,5 +1,6 @@
 @import 'nice-select';
 
+<<<<<<< HEAD
 
 .gradient-pattern {
   -webkit-box-sizing: content-box;
@@ -24,6 +25,8 @@
   background-size: 80px 140px;
 }
 
+=======
+>>>>>>> 73f1ead0c708f2468416e063af6839e26b986394
 .header-container
 {
 	padding:60px 0;
@@ -89,7 +92,11 @@ fieldset {
 #contact input[type="tel"],
 #contact input[type="url"],
 #contact textarea {
+<<<<<<< HEAD
   width: 90%;
+=======
+  width: 70%;
+>>>>>>> 73f1ead0c708f2468416e063af6839e26b986394
   border-radius: 5px;
   border: 1px solid #ccc;
   background: #FFF;
@@ -110,6 +117,7 @@ fieldset {
 
 
 #contact input[type="submit"] {
+<<<<<<< HEAD
   margin-top: 0;
   color:#fff;
   font-size: 19px;
@@ -131,6 +139,23 @@ fieldset {
     -webkit-transition-duration: 500ms;
     -o-transition-duration: 500ms;
     transition-duration: 500ms;
+=======
+  cursor: pointer;
+  width: 80%;
+  border: none;
+  background: #0fa6cf;
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+#contact input[type="submit"]:hover {
+  background: #165dd1;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+>>>>>>> 73f1ead0c708f2468416e063af6839e26b986394
 }
 
 #contact input[type="submit"]:active {
@@ -164,12 +189,24 @@ fieldset {
 }
 
 
+<<<<<<< HEAD
 /* The alert message box */
 .alert {
   max-width: 90%;
   padding: 20px;
   background-color: #f0a35c; /* Red */
   color: white;
+=======
+
+/* The alert message box */
+.alert {
+
+  padding: 20px;
+  background-color: #165dd1; /* Red */
+  color: white;
+  margin-bottom: 15px;
+  width: 443px;
+>>>>>>> 73f1ead0c708f2468416e063af6839e26b986394
   opacity: 1;
   transition: opacity 1s; /* 600ms to fade out */
 }
@@ -189,6 +226,7 @@ fieldset {
 /* When moving the mouse over the close button */
 .closebtn:hover {
   color: black;
+<<<<<<< HEAD
 }
 
 
@@ -240,3 +278,6 @@ font-size: 60px;
 }
 
 
+=======
+}
+>>>>>>> 73f1ead0c708f2468416e063af6839e26b986394

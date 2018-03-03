@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 73f1ead0c708f2468416e063af6839e26b986394
 .box {
 	margin-top: 70px;
 	text-align:center;
@@ -22,11 +25,15 @@ table a:hover {
 	color: #333;
 	text-decoration:underline;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 73f1ead0c708f2468416e063af6839e26b986394
 table {
 	font-family:Arial, Helvetica, sans-serif;
 	color:#666;
 	font-size:16px;
+<<<<<<< HEAD
   margin:50px auto 0 auto;
 	width:100%;
 	box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
@@ -51,20 +58,45 @@ table th {
   color: #fff;
 	background: #0072ff;
 
+=======
+	background:#df2a27;
+  margin:90px auto 0 auto;
+	border:#df2a27 1px solid;
+  width:100%;
+}
+table th {
+  text-align: center;
+	padding:21px 25px 22px 25px;
+	border-top:1px solid #df2a27;
+  border-bottom:1px solid #df2a27;
+  color: #fff;
+	background: #df2a27;
+	background: -webkit-gradient(linear, left top, left bottom, from(#df2a27), to(#df2a27));
+	background: -moz-linear-gradient(top,  #df2a27,  #df2a27);
+>>>>>>> 73f1ead0c708f2468416e063af6839e26b986394
 }
 
 
 table tr {
 	text-align: center;
+<<<<<<< HEAD
 	border-bottom: 1px solid #ebebeb;
+=======
+>>>>>>> 73f1ead0c708f2468416e063af6839e26b986394
 }
 
 table td {
   padding:10px 20px;
   padding-top: 20px;
+<<<<<<< HEAD
 	border-top: 1px solid #ebebeb;
   border-bottom:1px solid #ebebeb;
 	border-left: 1px solid #ebebeb;
+=======
+	border-top: 1px solid #ffffff;
+  border-bottom:1px solid #e0e0e0;
+	border-left: 1px solid #e0e0e0;
+>>>>>>> 73f1ead0c708f2468416e063af6839e26b986394
 	background: #fafafa;
 	background: -webkit-gradient(linear, left top, left bottom, from(#fbfbfb), to(#fafafa));
 	background: -moz-linear-gradient(top,  #fbfbfb,  #fafafa);
@@ -92,6 +124,7 @@ table tr:last-child td {
 table tr:hover td {
 	background: #f2f2f2;
 	background: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(#f0f0f0));
+<<<<<<< HEAD
 	background: -moz-linear-gradient(top,  #f2f2f2,  #f0f0f0);
 }
 
@@ -101,6 +134,16 @@ table tr:hover td {
 	padding:15px;
 	color: #fff;
 	font-weight: bold;
+=======
+	background: -moz-linear-gradient(top,  #f2f2f2,  #f0f0f0);	
+}
+
+.star-button, .star-button-change {
+	background-color: #165dd1;
+	border: none;
+	padding:15px;
+	color: #fff;
+>>>>>>> 73f1ead0c708f2468416e063af6839e26b986394
 	font-weight: 600;
 	border-radius: 50%;
 	-webkit-transition: background-color 0.2s ease-in;
@@ -114,16 +157,25 @@ table tr:hover td {
 
 .star-button-change {
 
+<<<<<<< HEAD
 	background-color:#5b32b4;
+=======
+	background-color:#f44336;
+>>>>>>> 73f1ead0c708f2468416e063af6839e26b986394
 
 }
 
 .submit {
+<<<<<<< HEAD
 	text-align: center;
+=======
+	float: right;
+>>>>>>> 73f1ead0c708f2468416e063af6839e26b986394
 	margin:20px 0;
 }
 
 .submit-button {
+<<<<<<< HEAD
 	margin-top: 20px;
 	color:#fff;
 	font-weight: bold;
@@ -135,10 +187,21 @@ table tr:hover td {
   line-height: 46px;
   text-align: center;
   border-radius: 24px 24px 24px 0px;
+=======
+	background-color: #165dd1;
+	margin: 20px 0 ;
+	border: none;
+	padding:10px 95px;
+	color: #fff;
+	font-weight: 600;
+  transition: background-color 0.4s ease-in;
+
+>>>>>>> 73f1ead0c708f2468416e063af6839e26b986394
 }
 
 .submit-button:hover{
 
+<<<<<<< HEAD
 	 background: #ff4e50;
     color: #fff;
     border-color: transparent;
@@ -150,3 +213,8 @@ table tr:hover td {
 .submit-button:active {
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
 }
+=======
+	background-color:#f44336;
+
+}
+>>>>>>> 73f1ead0c708f2468416e063af6839e26b986394

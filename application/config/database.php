@@ -78,7 +78,11 @@ $db['default'] = array(
 	'hostname' => 'localhost',
 	'username' => 'root',
 	'password' => '',
+<<<<<<< HEAD
 	'database' => 'nvs', //nvs in localhost
+=======
+	'database' => 'nvs',
+>>>>>>> 73f1ead0c708f2468416e063af6839e26b986394
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,

@@ -8,6 +8,7 @@
 
 class Customer_model extends CI_Model {
 
+<<<<<<< HEAD
     public function send_view($data) {
 
         $query = $this->db->insert('customer_details',$data);
@@ -15,6 +16,8 @@ class Customer_model extends CI_Model {
 
     }
 
+=======
+>>>>>>> 73f1ead0c708f2468416e063af6839e26b986394
     public function get_customers() {
 
         $query = $this->db->get('customer_details');

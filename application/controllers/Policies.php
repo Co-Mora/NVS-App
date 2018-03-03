@@ -115,7 +115,11 @@ class Policies extends CI_Controller {
         }
     }
 
+<<<<<<< HEAD
     public function update_admin_policy1($id){
+=======
+    public function update_admin_policy1($id = 1){
+>>>>>>> 73f1ead0c708f2468416e063af6839e26b986394
 
 
         $this->form_validation->set_rules('policy_name', 'Policy Name', 'trim|required');
@@ -155,7 +159,11 @@ class Policies extends CI_Controller {
         }
     }
 
+<<<<<<< HEAD
     public function update_admin_policy2($id){
+=======
+    public function update_admin_policy2($id = 1){
+>>>>>>> 73f1ead0c708f2468416e063af6839e26b986394
 
 
         $this->form_validation->set_rules('policy_name', 'Policy Name', 'trim|required');
@@ -355,7 +363,11 @@ class Policies extends CI_Controller {
             }
         }
     }
+<<<<<<< HEAD
     public function update_accommodation_policy2($id){
+=======
+    public function update_accommodation_policy2($id = 1){
+>>>>>>> 73f1ead0c708f2468416e063af6839e26b986394
 
         $this->form_validation->set_rules('policy_name', 'Policy Name', 'trim|required');
         $this->form_validation->set_rules('policy_price', 'Policy Price', 'trim|required');
@@ -514,7 +526,11 @@ class Policies extends CI_Controller {
         }
     }
 
+<<<<<<< HEAD
     public function update_retail_policy1($id){
+=======
+    public function update_retail_policy1($id = 1){
+>>>>>>> 73f1ead0c708f2468416e063af6839e26b986394
 
         $this->form_validation->set_rules('policy_name', 'Policy Name', 'trim|required');
         $this->form_validation->set_rules('policy_price', 'Policy Price', 'trim|required');
@@ -553,7 +569,11 @@ class Policies extends CI_Controller {
         }
     }
 
+<<<<<<< HEAD
     public function update_retail_policy2($id){
+=======
+    public function update_retail_policy2($id = 1){
+>>>>>>> 73f1ead0c708f2468416e063af6839e26b986394
 
         $this->form_validation->set_rules('policy_name', 'Policy Name', 'trim|required');
         $this->form_validation->set_rules('policy_price', 'Policy Price', 'trim|required');
@@ -601,7 +621,11 @@ class Policies extends CI_Controller {
         }
     }
 
+<<<<<<< HEAD
     public function delete_retail_policy2($id){
+=======
+    public function delete_retail_policy2($id = 1){
+>>>>>>> 73f1ead0c708f2468416e063af6839e26b986394
 
         if($this->Policy_model->delete_retail2($id)) {
 
@@ -709,7 +733,11 @@ class Policies extends CI_Controller {
         }
     }
 
+<<<<<<< HEAD
     public function update_contractor_policy1($id){
+=======
+    public function update_contractor_policy1($id = 1){
+>>>>>>> 73f1ead0c708f2468416e063af6839e26b986394
 
         $this->form_validation->set_rules('policy_name', 'Policy Name', 'trim|required');
         $this->form_validation->set_rules('policy_price', 'Policy Price', 'trim|required');
@@ -748,7 +776,11 @@ class Policies extends CI_Controller {
         }
     }
 
+<<<<<<< HEAD
     public function update_contractor_policy2($id){
+=======
+    public function update_contractor_policy2($id = 1){
+>>>>>>> 73f1ead0c708f2468416e063af6839e26b986394
 
         $this->form_validation->set_rules('policy_name', 'Policy Name', 'trim|required');
         $this->form_validation->set_rules('policy_price', 'Policy Price', 'trim|required');
@@ -905,7 +937,11 @@ class Policies extends CI_Controller {
         }
     }
 
+<<<<<<< HEAD
     public function update_estate_policy1($id){
+=======
+    public function update_estate_policy1($id = 1){
+>>>>>>> 73f1ead0c708f2468416e063af6839e26b986394
 
         $this->form_validation->set_rules('policy_name', 'Policy Name', 'trim|required');
         $this->form_validation->set_rules('policy_price', 'Policy Price', 'trim|required');
@@ -944,7 +980,11 @@ class Policies extends CI_Controller {
         }
     }
 
+<<<<<<< HEAD
     public function update_estate_policy2($id){
+=======
+    public function update_estate_policy2($id = 1){
+>>>>>>> 73f1ead0c708f2468416e063af6839e26b986394
 
         $this->form_validation->set_rules('policy_name', 'Policy Name', 'trim|required');
         $this->form_validation->set_rules('policy_price', 'Policy Price', 'trim|required');
@@ -1101,7 +1141,11 @@ class Policies extends CI_Controller {
         }
     }
 
+<<<<<<< HEAD
     public function update_event_policy1($id){
+=======
+    public function update_event_policy1($id = 1){
+>>>>>>> 73f1ead0c708f2468416e063af6839e26b986394
 
         $this->form_validation->set_rules('policy_name', 'Policy Name', 'trim|required');
         $this->form_validation->set_rules('policy_price', 'Policy Price', 'trim|required');
@@ -1140,7 +1184,11 @@ class Policies extends CI_Controller {
         }
     }
 
+<<<<<<< HEAD
     public function update_event_policy2($id){
+=======
+    public function update_event_policy2($id = 1){
+>>>>>>> 73f1ead0c708f2468416e063af6839e26b986394
 
         $this->form_validation->set_rules('policy_name', 'Policy Name', 'trim|required');
         $this->form_validation->set_rules('policy_price', 'Policy Price', 'trim|required');
@@ -1300,7 +1348,11 @@ class Policies extends CI_Controller {
     }
 
 
+<<<<<<< HEAD
     public function update_manufacturer_policy1($id){
+=======
+    public function update_manufacturer_policy1($id = 1){
+>>>>>>> 73f1ead0c708f2468416e063af6839e26b986394
 
         $this->form_validation->set_rules('policy_name', 'Policy Name', 'trim|required');
         $this->form_validation->set_rules('policy_price', 'Policy Price', 'trim|required');
@@ -1338,7 +1390,11 @@ class Policies extends CI_Controller {
             }
         }
     }
+<<<<<<< HEAD
     public function update_manufacturer_policy2($id){
+=======
+    public function update_manufacturer_policy2($id = 1){
+>>>>>>> 73f1ead0c708f2468416e063af6839e26b986394
 
         $this->form_validation->set_rules('policy_name', 'Policy Name', 'trim|required');
         $this->form_validation->set_rules('policy_price', 'Policy Price', 'trim|required');

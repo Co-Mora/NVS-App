@@ -24,8 +24,13 @@
                         <table id="example2" class="table table-bordered table-hover">
                             <thead>
                             <tr>
+<<<<<<< HEAD
                                 <th>Customer Id</th>
                                 <th>Customer Name</th>
+=======
+                                <th>Customer Name</th>
+                                <th>Customer Email</th>
+>>>>>>> 73f1ead0c708f2468416e063af6839e26b986394
                                 <th>Customer Phone</th>
                                 <th>Industry Name</th>
                                 <th>Number of Employees</th>
@@ -37,6 +42,10 @@
                                 <tr>
                                     <td><?php echo $item->id; ?></td>
                                     <td><?php echo $item->customer_name; ?></td>
+<<<<<<< HEAD
+=======
+                                    <td><?php echo $item->customer_email; ?></td>
+>>>>>>> 73f1ead0c708f2468416e063af6839e26b986394
                                     <td><?php echo $item->customer_phone; ?></td>
                                     <td><?php echo $item->industry_name; ?></td>
                                     <td><?php echo $item->number_employees; ?></td>

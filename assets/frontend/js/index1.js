@@ -24,6 +24,7 @@ for (i = 0; i < close.length; i++) {
         // Hide the div after 600ms (the same amount of milliseconds it takes to fade out)
         setTimeout(function(){ div.style.display = "none"; }, 800);
     }
+<<<<<<< HEAD
 }
 
 
@@ -52,3 +53,6 @@ for (i = 0; i < close.length; i++) {
 
 
 })(jQuery);
+=======
+}
+>>>>>>> 73f1ead0c708f2468416e063af6839e26b986394

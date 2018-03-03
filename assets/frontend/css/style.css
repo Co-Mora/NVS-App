@@ -67,7 +67,11 @@
     .nice-select.disabled:after {
       border-color: #cdd5de; }
   .nice-select.wide {
+<<<<<<< HEAD
     width: 90%; }
+=======
+    width: 70%; }
+>>>>>>> 73f1ead0c708f2468416e063af6839e26b986394
     .nice-select.wide .list {
       left: 0 !important;
       right: 0 !important; }

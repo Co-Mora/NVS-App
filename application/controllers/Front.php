@@ -11,12 +11,24 @@ class Front extends CI_Controller {
 
 
     public function view() {
+<<<<<<< HEAD
         $this->form_validation->set_rules('username', '', 'trim|required|min_length[4]');
         $this->form_validation->set_rules('email', '', 'trim|valid_email|xss_clean');
         $this->form_validation->set_rules('phone', '', 'trim|required|regex_match[/^[0-9]/]');
         $this->form_validation->set_rules('industries', '', 'required');
         $this->form_validation->set_rules('numbers', '', 'required');
 
+=======
+
+
+        $this->form_validation->set_rules('username', '', 'trim|required|min_length[4]');
+        $this->form_validation->set_rules('email', '', 'trim|valid_email');
+        $this->form_validation->set_rules('phone', '', 'trim|required|regex_match[/^[0-9]{10}$/]');
+        $this->form_validation->set_rules('industries', '', 'required');
+        $this->form_validation->set_rules('numbers', '', 'required');
+
+
+>>>>>>> 73f1ead0c708f2468416e063af6839e26b986394
         if($this->form_validation->run() == FALSE) {
 
             $data = array(
@@ -28,6 +40,7 @@ class Front extends CI_Controller {
             $this->load->view('front_template/main', $data);
 
 
+<<<<<<< HEAD
         } else {
             if($this->input->post()) {
                 $data = array(
@@ -40,6 +53,14 @@ class Front extends CI_Controller {
                 $this->Front_model->send_view($data);
 
             }
+=======
+
+
+        } else {
+
+
+
+>>>>>>> 73f1ead0c708f2468416e063af6839e26b986394
             $industry = $this->input->post('industries');
             $number= $this->input-> post('numbers');
             if($industry === 'data-display' && $number === 'data-display') {
@@ -137,6 +158,7 @@ class Front extends CI_Controller {
 
     }
 
+<<<<<<< HEAD
     public function re_view() {
 
 
@@ -144,6 +166,10 @@ class Front extends CI_Controller {
     }
 
     
+=======
+
+
+>>>>>>> 73f1ead0c708f2468416e063af6839e26b986394
 
 
 }

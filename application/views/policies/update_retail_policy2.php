@@ -26,7 +26,11 @@
                             <?php echo $this->session->flashdata('errors');?>
                         </div>
                     <?php endif; ?>
+<<<<<<< HEAD
                     <?php echo form_open('Policies/update_retail_policy2/'.$this->uri->segment('3'),$attr)?>
+=======
+                    <?php echo form_open('Policies/update_retail_policy2',$attr)?>
+>>>>>>> 73f1ead0c708f2468416e063af6839e26b986394
                     <div class="box-body">
 
                         <?php
